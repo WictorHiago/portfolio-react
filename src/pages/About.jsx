@@ -4,7 +4,6 @@ import Button from '../components/Button';
 /* CSS */
 import Styles from '../assets/css/Styles.css';
 import stylesButtons from '../assets/css/Buttons.css';
-import MyButtonLink from '../components/ButtonLink';
 const About = () => {
    return (
       <div className="about-container" style={Styles}>
