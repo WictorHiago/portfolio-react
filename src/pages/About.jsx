@@ -1,14 +1,16 @@
 import React from 'react';
-import photo from '../assets/img/IMG_20200903_111524492.png';
+import photo from '../assets/img/imagem02012023.png';
 import Button from '../components/Button';
 /* CSS */
 import Styles from '../assets/css/Styles.css';
+import stylesButtons from '../assets/css/Buttons.css';
+import MyButtonLink from '../components/ButtonLink';
 const About = () => {
    return (
       <div className="about-container" style={Styles}>
-         <div className="about-box">
-            <h1 className="text-destac">Developer Backend NodeJs</h1>
-            <p>
+         <div className="texto-apresentacao">
+            <h1>Developer Backend NodeJs</h1>
+            <p className="">
                Lorem ipsum <span className="my-name">W Hiago Souza</span> is
                placeholder text commonly used in the graphic, print, and
                publishing industries for previewing layouts and visual mockups.
@@ -20,12 +22,11 @@ const About = () => {
                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-
-            <div className="button-box">
+            <div className="button-box" style={stylesButtons}>
                <Button />
             </div>
          </div>
-         <div className="about-photo-box">
+         <div className="imagem">
             <img src={photo} alt="" />
          </div>
       </div>

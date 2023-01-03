@@ -3,9 +3,11 @@ import { BsFacebook, BsTwitter, BsWhatsapp } from 'react-icons/bs';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import { GiPositionMarker } from 'react-icons/gi';
+/* CSS */
+import stylesContact from '../assets/css/Contact.css';
 const Contact = () => {
    return (
-      <div className="contact-container">
+      <div className="contact-container" style={stylesContact}>
          <div className="email-addres">
             <div className="email-addres-content">
                <MdEmail className="social-media-icons" />

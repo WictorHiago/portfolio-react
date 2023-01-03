@@ -1,0 +1,37 @@
+.cards-container {
+   display: flex;
+   gap: 20px;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   max-width: 1600px;
+   height: 80vh;
+   padding: 2em;
+   overflow: auto;
+}
+
+.skill-icons {
+   font-size: 250px;
+   color: #ffffff;
+   transition: 0.4s;
+}
+
+.skill-icons:first-child {
+   border-radius: 10%;
+}
+
+.skill-icons:hover {
+   color: #fa0462;
+   font-size: 255px;
+   cursor: crosshair;
+}
+
+.cards-container .card-box {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transition: 0.6s;
+   border-radius: 10%;
+   width: 300px;
+   height: 300px;
+}

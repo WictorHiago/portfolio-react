@@ -1,5 +1,6 @@
 import React from 'react';
 import Styles from '../assets/css/Styles.css';
+import stylesSkills from '../assets/css/Skills.css';
 import {
    SiJavascript,
    SiTypescript,
@@ -15,7 +16,7 @@ import {
 } from 'react-icons/si';
 const Skills = () => {
    return (
-      <div className="cards-container" style={Styles}>
+      <div className="cards-container" style={stylesSkills}>
          <div className="card-box">
             <SiJavascript className="skill-icons" style={Styles} />
          </div>

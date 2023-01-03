@@ -1,0 +1,49 @@
+.contact-container {
+   padding: 2em;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 2em;
+}
+.contact-container div {
+   display: flex;
+   margin: 3em 0;
+}
+
+.email-addres-content {
+   display: flex;
+   align-items: center;
+   height: 50px;
+}
+
+.email-addres {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+   color: #ffffff;
+}
+/* media socials */
+.social-media-box {
+   display: flex;
+   gap: 20px;
+}
+.social-media-box div {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 80px;
+   height: 80px;
+}
+
+.social-media-icons {
+   font-size: 50px;
+   color: #ffffff;
+   cursor: pointer;
+   gap: 10px;
+   transition: 0.6s;
+}
+.social-media-icons:hover {
+   font-size: 58px;
+   color: #fa0462;
+}
