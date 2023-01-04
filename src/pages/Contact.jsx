@@ -15,7 +15,9 @@ const Contact = () => {
             </div>
             <div className="email-addres-content">
                <GiPositionMarker className="social-media-icons" />
-               <h3>Amazonas, Brasil</h3>
+               <a href="https://goo.gl/maps/tCz91ESFvMK72PNf8" target="blank">
+                  <h3>Manaus, Amazonas</h3>
+               </a>
             </div>
          </div>
          <div className="social-media-box">
@@ -31,7 +33,12 @@ const Contact = () => {
             </div>
             <div>
                <span>
-                  <FaLinkedinIn className="social-media-icons" />
+                  <a
+                     href="https://www.linkedin.com/in/wictor-hiago-souza-861828103/"
+                     target="blank"
+                  >
+                     <FaLinkedinIn className="social-media-icons" />
+                  </a>
                </span>
             </div>
             <div>
