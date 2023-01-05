@@ -47,3 +47,16 @@
    font-size: 58px;
    color: #fa0462;
 }
+
+@media (max-width: 768px) {
+   .contact-container {
+      height: 90vh;
+   }
+   .contact-container div {
+      height: 100%;
+   }
+
+   .App {
+      height: 120vh;
+   }
+}
